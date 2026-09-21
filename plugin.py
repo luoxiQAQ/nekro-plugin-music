@@ -12,11 +12,11 @@ from .core.platform import NetEaseMusic, TXQQMusic
 
 plugin = NekroPlugin(
     name="点歌",
-    module_name="music",
+    module_name="nekro_music",
     description="多平台点歌：搜索选歌、歌词图片、热门评论，支持语音 / 文件 / 音乐卡片多种发送方式自动降级",
     version="1.0.0",
-    author="ominus",
-    url="https://github.com/Zhalslar/astrbot_plugin_music",
+    author="luoxiQAQ",
+    url="https://github.com/luoxiQAQ/nekro-plugin-music",
     i18n_name=i18n.i18n_text(
         zh_CN="点歌",
         en_US="Music Request",
