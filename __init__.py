@@ -22,10 +22,6 @@
 - **发送方式**: 在 WebUI 配置里用下拉框从「本地语音 / 语音链接 / 本地文件 / 文件链接 / 音乐卡片 / 签名卡片 / 文本链接」中逐级选择优先级（发送方式 1~4），某级失败自动降级到下一级，选「不使用」即到此结束。
 - **本地发送前提**: 本地语音与本地文件依赖 nekro_agent 与 NapCat 都能读到的共享目录（`nbcache`），两者绝对路径一致。
 - **显示**: `SELECT_MODE` 可选 `image` 卡片图或 `text` 文本列表，`CARD_COLUMNS` 控制每行卡片数。
-
-## 来源
-
-移植自 AstrBot 插件 [Zhalslar/astrbot_plugin_music](https://github.com/Zhalslar/astrbot_plugin_music)，沿用其平台接入与渲染思路，按 nekro-agent 的插件接口重写。
 """
 
 import sys
