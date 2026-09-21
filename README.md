@@ -84,10 +84,6 @@
 - **本地语音 / 本地文件**：要求 nekro_agent 与协议端（NapCat）都能读到同一个共享目录（本部署用 `nbcache`），且两边绝对路径一致，否则会降级到其他方式。
 - **签名卡片**：需要一个返回 `{app, meta, prompt, view}` 的签名接口，通常要单独的 Key。
 
-## 致谢
-
-移植自 AstrBot 插件 [Zhalslar/astrbot_plugin_music](https://github.com/Zhalslar/astrbot_plugin_music)，沿用其平台接入与渲染思路，按 nekro-agent 的插件接口重写。
-
 ## License
 
 [MIT](LICENSE)
